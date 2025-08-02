@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    border: 1px solid black;
+    border-right: none;
+    height: 85px;
+}
+
+header p {
+    margin-bottom: 5px;
+}
+
+header .header-section {
+    border-right: 1px solid black;
+}
+
+#header-logo-section {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+#header-logo-section img {
+    display: block;
+    width: 175px;
+    margin: auto;
+}
+
+#header-links-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 25px;
+    width: 50%;
+}
+
+#header-links-section nav ul li {
+    display: inline;
+}
+
+#header-cart-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    width: 25%;
+}
+
+#header-cart-section #header-cart-section-right {
+    text-align: right;
+}
