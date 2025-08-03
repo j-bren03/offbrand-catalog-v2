@@ -1,7 +1,5 @@
 import { carouselItems } from "../data/carousel-items.js";
 
-renderCarouselSetion();
-
 function renderCarouselSetion() {
     /**
      * TODO:
@@ -57,3 +55,5 @@ function renderCarouselSetion() {
         });
     });
 }
+
+export default renderCarouselSetion;
