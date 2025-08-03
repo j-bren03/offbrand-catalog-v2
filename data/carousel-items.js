@@ -1,23 +1,23 @@
-carouselItems = [
+export const carouselItems = [
     {
-        heading: 'Recent Releases',
-        description: 'Browse all of our recent releases!',
-        linkText: 'View Recent Releases',
-        linkHref: '',
-        imagePath: ''
+        carouselHeading: 'Recent Releases',
+        carouselDescription: 'Browse all of our recent releases!',
+        carouselLinkText: 'View Recent Releases',
+        carouselLinkHref: '#',
+        carouselImagePath: ''
     },
     {
-        heading: 'Popular Releases',
-        description: 'Browse all of our popular releases!',
-        linkText: 'View Recent Releases',
-        linkHref: '',
-        imagePath: ''
+        carouselHeading: 'Popular Releases',
+        carouselDescription: 'Browse all of our popular releases!',
+        carouselLinkText: 'View Recent Releases',
+        carouselLinkHref: '#',
+        carouselImagePath: ''
     },
     {
-        heading: 'All Releases',
-        description: 'Browse all of our current releases!',
-        linkText: 'View All Releases',
-        linkHref: '',
-        imagePath: ''
+        carouselHeading: 'All Releases',
+        carouselDescription: 'Browse all of our current releases!',
+        carouselLinkText: 'View All Releases',
+        carouselLinkHref: '#',
+        carouselImagePath: ''
     },
 ];

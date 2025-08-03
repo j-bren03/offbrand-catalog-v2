@@ -1,0 +1,25 @@
+#carousel-section-wrapper {
+    height: 500px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.carousel-section-item {
+    display: none;
+}
+
+.carousel-section-item.is-viewing {
+    display: block;
+}
+
+.carousel-button {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.carousel-button.is-active {
+    background-color: black;
+}
