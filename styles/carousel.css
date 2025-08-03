@@ -8,7 +8,7 @@
     display: none;
 }
 
-.carousel-section-item.is-viewing {
+.carousel-section-item.is-active {
     display: block;
 }
 

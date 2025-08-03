@@ -26,7 +26,7 @@ function renderCarouselSetion() {
         const activeItem = index === 0;
 
         carouselItemsHtml += `
-            <div class="js-carousel-section-item-${carouselId} carousel-section-item ${activeItem ? 'is-viewing' : ''}">
+            <div class="js-carousel-section-item-${carouselId} carousel-section-item ${activeItem ? 'is-active' : ''}">
                 <h2>${carouselHeading}</h2>
                 <p>${carouselDescription}</p>
                 <a href="${carouselLinkHref}">${carouselLinkText}</a>
@@ -47,11 +47,12 @@ function renderCarouselSetion() {
         carouselButton.addEventListener('click', () => {
             const { carouselId } = carouselButton.dataset;
             
-            // Remove the active classes and add them to the selected item
-            document.querySelector('.is-viewing').classList.remove('is-viewing');
-            document.querySelector('.is-active').classList.remove('is-active');
+            // Remove the active classes and add them to the selected items
+            document.querySelectorAll('.is-active').forEach((activeItem) => {
+                activeItem.classList.remove('is-active');
+            })
 
-            document.querySelector(`.js-carousel-section-item-${carouselId}`).classList.add('is-viewing');
+            document.querySelector(`.js-carousel-section-item-${carouselId}`).classList.add('is-active');
             carouselButton.classList.add('is-active');
         });
     });
