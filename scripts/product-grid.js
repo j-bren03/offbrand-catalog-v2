@@ -11,7 +11,7 @@ function renderProductSection() {
         } = product;
 
         productHTML += `
-            <div class="js-product-${productId}-wrapper">
+            <div class="js-product-${productId}-wrapper product-wrapper">
                 <p>${productName}</p>
                 <p>$${productPriceCents}</p>
             </div>
