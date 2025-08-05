@@ -38,5 +38,25 @@ export const products = [
         productSizes: [],
         productsTags: [],
         productImages: []
+    },
+    {
+        productId: 4,
+        productName: 'Product 5',
+        productPriceCents: '0',
+        productDescription: '',
+        productPhotographer: '',
+        productSizes: [],
+        productsTags: [],
+        productImages: []
+    },
+    {
+        productId: 5,
+        productName: 'Product 6',
+        productPriceCents: '0',
+        productDescription: '',
+        productPhotographer: '',
+        productSizes: [],
+        productsTags: [],
+        productImages: []
     }
 ];
