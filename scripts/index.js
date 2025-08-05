@@ -1,5 +1,5 @@
 import renderCarouselSetion from './carousel.js';
-import renderProductSection from './product-grid.js'
+import { renderProductShowcase } from './product-sections.js'
 
 renderCarouselSetion();
-renderProductSection();
+renderProductShowcase('.js-popular-products', 'popular');

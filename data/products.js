@@ -1,3 +1,11 @@
+export function getProductsByTag(tag) {
+    return products.filter((product) => {
+        const { productTags } = product;
+        
+        return productTags.includes(tag);
+    });
+}
+
 export const products = [
     {
         productId: 0,
@@ -6,7 +14,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: ['popular'],
         productImages: []
     },
     {
@@ -16,7 +24,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: ['popular'],
         productImages: []
     },
     {
@@ -26,7 +34,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: ['popular'],
         productImages: []
     },
     {
@@ -36,7 +44,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: [],
         productImages: []
     },
     {
@@ -46,7 +54,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: ['popular'],
         productImages: []
     },
     {
@@ -56,7 +64,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productsTags: [],
+        productTags: [],
         productImages: []
     }
 ];
