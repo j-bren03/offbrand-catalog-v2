@@ -1,3 +1,27 @@
+.product-section-heading-container {
+    display: flex;
+    height: 85px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.product-section-heading-item {
+    width: 25%;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.product-section-heading-item.contains-heading {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.product-section-heading-item svg {
+    width: 100%;
+    height: 100%;
+}
+
 #product-section .products-container {
     display: flex;
     flex-wrap: wrap;
