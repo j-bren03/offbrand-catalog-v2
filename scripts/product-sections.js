@@ -63,13 +63,15 @@ function generateProductItemHtml(product) {
     const {
         productId,
         productName,
-        productPriceCents
+        productPriceCents,
+        productImages
     } = product;
 
     return `
         <div class="js-product-item-${productId} product-item">
             <p>${productName}</p>
             <p>$${formatCurrency(productPriceCents)}</p>
+            <img src="${productImages[0]}" alt="${productName}">
         </div>
     `;
 }
