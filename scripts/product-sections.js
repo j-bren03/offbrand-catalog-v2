@@ -1,4 +1,5 @@
 import { products, getProductsByTag } from "../data/products.js";
+import { formatCurrency } from './utils/currency.js';
 
 export function renderProductShowcaseHeading(tag) {
     const productSectionElement = document.querySelector('.js-product-section');
@@ -65,7 +66,7 @@ function generateProductItemHtml(product) {
     return `
         <div class="js-product-item-${productId} product-item">
             <p>${productName}</p>
-            <p>$${productPriceCents}</p>
+            <p>$${formatCurrency(productPriceCents)}</p>
         </div>
     `;
 }
