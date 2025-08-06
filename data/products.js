@@ -41,10 +41,14 @@ export const products = [
         productName: 'Product 3',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@jaysoundo',
         productSizes: [],
         productTags: ['popular'],
-        productImages: []
+        productImages: [
+            '../images/white-shirt/1.jpg',
+            '../images/white-shirt/2.jpg',
+            '../images/white-shirt/3.jpg'
+        ]
     },
     {
         productId: 3,
