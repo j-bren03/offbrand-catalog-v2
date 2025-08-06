@@ -1,10 +1,6 @@
 import renderCarouselSetion from './carousel.js';
-import { renderProductShowcaseHeading, renderProductShowcase } from './product-sections.js'
+import { renderProductShowcaseSection } from './product-sections.js'
 
 renderCarouselSetion();
-
-renderProductShowcaseHeading('popular');
-renderProductShowcase('popular');
-
-renderProductShowcaseHeading('new');
-renderProductShowcase('new');
+renderProductShowcaseSection('popular');
+renderProductShowcaseSection('new');

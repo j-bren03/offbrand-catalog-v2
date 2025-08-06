@@ -1,7 +1,7 @@
 import { products, getProductsByTag } from "../data/products.js";
 import { formatCurrency } from './utils/currency.js';
 
-export function renderProductShowcaseHeading(tag) {
+function renderProductShowcaseHeading(tag) {
     const productSectionElement = document.querySelector('.js-product-section');
 
     // Generate a product heading container
@@ -33,7 +33,10 @@ export function renderProductShowcaseHeading(tag) {
     document.querySelector(`.js-product-heading-container-${tag}`).innerHTML = productHeadingItemsHtml;
 }
 
-export function renderProductShowcase(tag) {
+export function renderProductShowcaseSection(tag) {
+    // Render the heading first
+    renderProductShowcaseHeading(tag);
+
     const productSectionElement = document.querySelector('.js-product-section');
 
     // Generate a product item container
