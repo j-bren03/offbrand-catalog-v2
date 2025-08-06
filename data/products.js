@@ -12,10 +12,13 @@ export const products = [
         productName: 'Product 1',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@lovebydm',
         productSizes: [],
         productTags: ['popular'],
-        productImages: []
+        productImages: ['../images/black-jacket/1.jpg',
+            '../images/black-jacket/2.jpg',
+            '../images/black-jacket/3.jpg',
+            '../images/black-jacket/4.jpg']
     },
     {
         productId: 1,
