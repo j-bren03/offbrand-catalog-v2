@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    height: 85px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.footer-item p:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.footer-item nav ul li {
+    display: inline;
+}
+
+.footer-item {
+    width: 25%;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.footer-item.contains-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.footer-item svg {
+    width: 100%;
+    height: 100%;
+}
