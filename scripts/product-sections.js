@@ -1,29 +1,24 @@
 import { products, getProductsByTag } from "../data/products.js";
 
-export function renderProductSection() {
-    let productHTML = '';
+export function renderProductShowcase(tag) {
+    // First, generate a product item container to later store the product items
+    document.querySelector('.js-product-section').innerHTML += `
+        <div class="js-product-item-container-${tag} product-item-container"></div>
+    `;
 
-    products.forEach((product) => {
-        productHTML += generateProductHTML(product);
-    });
+    const taggedProducts = getProductsByTag(tag);
+    let generatedProductsHtml = '';
 
-    document.querySelector('.js-all-products').innerHTML = productHTML;
-}
+    // In showcases, only display the first four results
+    let productIndex = 0;
 
-export function renderProductShowcase(showcaseClass, tag) {
-    const filteredProducts = getProductsByTag(tag);
-
-    let showcaseHTML = '';
-    let count = 0;
-
-    while (count < 4) {
-        const product = filteredProducts[count];
-
-        showcaseHTML += generateProductHTML(product);
-        count++;
+    while (productIndex < 4) {
+        generatedProductsHtml += generateProductHTML(taggedProducts[productIndex]);
+        productIndex++;
     }
 
-    document.querySelector(showcaseClass).innerHTML = showcaseHTML;
+    // Select the generated product item container, change the inner HTML
+    document.querySelector(`.js-product-item-container-${tag}`).innerHTML = generatedProductsHtml;
 }
 
 function generateProductHTML(product) {
@@ -34,7 +29,7 @@ function generateProductHTML(product) {
     } = product;
 
     return `
-        <div class="js-product-${productId}-wrapper product-wrapper">
+        <div class="js-product-item-${productId} product-item">
             <p>${productName}</p>
             <p>$${productPriceCents}</p>
         </div>
