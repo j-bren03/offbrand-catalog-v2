@@ -15,10 +15,12 @@ export const products = [
         productPhotographer: 'https://unsplash.com/@lovebydm',
         productSizes: [],
         productTags: ['popular'],
-        productImages: ['../images/black-jacket/1.jpg',
+        productImages: [
+            '../images/black-jacket/1.jpg',
             '../images/black-jacket/2.jpg',
             '../images/black-jacket/3.jpg',
-            '../images/black-jacket/4.jpg']
+            '../images/black-jacket/4.jpg'
+        ]
     },
     {
         productId: 1,
@@ -28,7 +30,11 @@ export const products = [
         productPhotographer: '',
         productSizes: [],
         productTags: ['popular', 'new'],
-        productImages: []
+        productImages: [
+            '../images/black-hoodie/1.jpg',
+            '../images/black-hoodie/2.jpg',
+            '../images/black-hoodie/3.jpg'
+        ]
     },
     {
         productId: 2,
