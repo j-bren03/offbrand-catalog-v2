@@ -24,7 +24,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productTags: ['popular'],
+        productTags: ['popular', 'new'],
         productImages: []
     },
     {
@@ -44,7 +44,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productTags: [],
+        productTags: ['new'],
         productImages: []
     },
     {
@@ -54,7 +54,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productTags: ['popular'],
+        productTags: ['popular', 'new'],
         productImages: []
     },
     {
@@ -64,7 +64,7 @@ export const products = [
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
-        productTags: [],
+        productTags: ['new'],
         productImages: []
     }
 ];

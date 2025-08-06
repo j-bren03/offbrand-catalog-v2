@@ -5,3 +5,6 @@ renderCarouselSetion();
 
 renderProductShowcaseHeading('popular');
 renderProductShowcase('popular');
+
+renderProductShowcaseHeading('new');
+renderProductShowcase('new');
