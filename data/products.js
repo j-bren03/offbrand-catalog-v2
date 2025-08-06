@@ -27,7 +27,7 @@ export const products = [
         productName: 'Product 2',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@jaysoundo',
         productSizes: [],
         productTags: ['popular', 'new'],
         productImages: [
