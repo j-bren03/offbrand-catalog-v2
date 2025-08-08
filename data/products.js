@@ -12,15 +12,10 @@ export const products = [
         productName: 'Product 1',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: 'https://unsplash.com/@lovebydm',
+        productPhotographer: '',
         productSizes: [],
         productTags: ['popular'],
-        productImages: [
-            '../images/black-jacket/1.jpg',
-            '../images/black-jacket/2.jpg',
-            '../images/black-jacket/3.jpg',
-            '../images/black-jacket/4.jpg'
-        ]
+        productImages: []
     },
     {
         productId: 1,
@@ -55,10 +50,15 @@ export const products = [
         productName: 'Product 4',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@lovebydm',
         productSizes: [],
         productTags: ['new'],
-        productImages: []
+        productImages: [
+            '../images/black-jacket/1.jpg',
+            '../images/black-jacket/2.jpg',
+            '../images/black-jacket/3.jpg',
+            '../images/black-jacket/4.jpg'
+        ]
     },
     {
         productId: 4,
