@@ -19,7 +19,7 @@ export const products = [
     },
     {
         productId: 1,
-        productName: 'Product 2',
+        productName: 'Black Hoodie',
         productPriceCents: '0',
         productDescription: '',
         productPhotographer: 'https://unsplash.com/@jaysoundo',
@@ -33,7 +33,7 @@ export const products = [
     },
     {
         productId: 2,
-        productName: 'Product 3',
+        productName: 'White T-Shirt',
         productPriceCents: '0',
         productDescription: '',
         productPhotographer: 'https://unsplash.com/@jaysoundo',
@@ -47,7 +47,7 @@ export const products = [
     },
     {
         productId: 3,
-        productName: 'Product 4',
+        productName: 'Black Jacket',
         productPriceCents: '0',
         productDescription: '',
         productPhotographer: 'https://unsplash.com/@lovebydm',
