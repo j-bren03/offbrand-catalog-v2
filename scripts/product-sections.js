@@ -1,4 +1,4 @@
-import { products, getProductsByTag } from "../data/products.js";
+import { getProductsByTag } from "./data/products.js";
 import { formatCurrency } from './utils/currency.js';
 
 function renderProductShowcaseHeading(tag) {

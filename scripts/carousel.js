@@ -1,4 +1,4 @@
-import { carouselItems } from "../data/carousel-items.js";
+import { carouselItems } from "./data/carousel-items.js";
 
 function renderCarouselSetion() {
     /**
