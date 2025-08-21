@@ -9,13 +9,17 @@ export function getProductsByTag(tag) {
 export const products = [
     {
         productId: 0,
-        productName: 'Blank Product',
+        productName: 'Brown Puffer Jacket',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@pesce',
         productSizes: [],
         productTags: ['popular'],
-        productImages: []
+        productImages: [
+            './images/brown-puffer-jacket/1.jpg',
+            './images/brown-puffer-jacket/2.jpg',
+            './images/brown-puffer-jacket/3.jpg'
+        ]
     },
     {
         productId: 1,
