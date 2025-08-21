@@ -26,9 +26,9 @@ export const products = [
         productSizes: [],
         productTags: ['popular', 'new'],
         productImages: [
-            '/images/black-hoodie/1.jpg',
-            '/images/black-hoodie/2.jpg',
-            '/images/black-hoodie/3.jpg'
+            'images/black-hoodie/1.jpg',
+            'images/black-hoodie/2.jpg',
+            'images/black-hoodie/3.jpg'
         ]
     },
     {
@@ -40,9 +40,9 @@ export const products = [
         productSizes: [],
         productTags: ['popular'],
         productImages: [
-            '/images/white-shirt/1.jpg',
-            '/images/white-shirt/2.jpg',
-            '/images/white-shirt/3.jpg'
+            'images/white-shirt/1.jpg',
+            'images/white-shirt/2.jpg',
+            'images/white-shirt/3.jpg'
         ]
     },
     {
@@ -54,10 +54,10 @@ export const products = [
         productSizes: [],
         productTags: ['new'],
         productImages: [
-            '/images/black-jacket/1.jpg',
-            '/images/black-jacket/2.jpg',
-            '/images/black-jacket/3.jpg',
-            '/images/black-jacket/4.jpg'
+            'images/black-jacket/1.jpg',
+            'images/black-jacket/2.jpg',
+            'images/black-jacket/3.jpg',
+            'images/black-jacket/4.jpg'
         ]
     },
     {
