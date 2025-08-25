@@ -66,13 +66,15 @@ export const products = [
     },
     {
         productId: 4,
-        productName: 'Product 5',
+        productName: 'Black Leather Bag',
         productPriceCents: '0',
         productDescription: '',
         productPhotographer: '',
         productSizes: [],
         productTags: ['popular', 'new'],
-        productImages: []
+        productImages: [
+            './images/black-leather-bag/1.jpg'
+        ]
     },
     {
         productId: 5,
