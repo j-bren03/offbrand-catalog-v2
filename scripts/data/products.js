@@ -69,7 +69,7 @@ export const products = [
         productName: 'Black Leather Bag',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@florenciasimonini',
         productSizes: [],
         productTags: ['popular', 'new'],
         productImages: [
@@ -84,6 +84,8 @@ export const products = [
         productPhotographer: '',
         productSizes: [],
         productTags: ['new'],
-        productImages: []
+        productImages: [
+            './images/black-sweater/1.jpg'
+        ]
     }
 ];
