@@ -81,7 +81,7 @@ export const products = [
         productName: 'Product 6',
         productPriceCents: '0',
         productDescription: '',
-        productPhotographer: '',
+        productPhotographer: 'https://unsplash.com/@pesce',
         productSizes: [],
         productTags: ['new'],
         productImages: [
